@@ -42,6 +42,7 @@ return {
             "vue_ls",
             "tailwindcss",
             "eslint",
+            "prismals"
         })
         vim.api.nvim_create_autocmd('LspAttach', {
             group = vim.api.nvim_create_augroup('UserLspKeymaps', { clear = true }),
