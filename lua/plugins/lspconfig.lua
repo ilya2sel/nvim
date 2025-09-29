@@ -52,8 +52,6 @@ return {
                 local keymaps = {
                     { "n", "gd", vim.lsp.buf.definition, "Go to definition" },
                     { "n", "K", vim.lsp.buf.hover, "Hover information" },
-                    { "n", "[d", vim.diagnostic.goto_next, "Next diagnostic" },
-                    { "n", "]d", vim.diagnostic.goto_prev, "Previous diagnostic" },
                     { "n", "gr", vim.lsp.buf.references, "References" },
                     { "n", "gl", vim.diagnostic.open_float, "Show line diagnostics" },
                     { "n", "<leader>rn", vim.lsp.buf.rename, "Rename symbol" },
